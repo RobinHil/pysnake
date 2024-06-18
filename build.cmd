@@ -1,1 +1,1 @@
-pyinstaller --onefile --noconsole --icon=snake.ico snake.py
+pyinstaller --clean --onefile --noconsole --icon=snake.ico snake.py
