@@ -6,6 +6,7 @@ class SnakeGame:
     def __init__(self, root):
         self.root = root
         self.root.title("Snake Game")
+        self.root.iconbitmap("snake.ico")
         self.canvas_width = 600
         self.canvas_height = 400
         self.canvas = tk.Canvas(root, width=self.canvas_width, height=self.canvas_height, bg="black")
