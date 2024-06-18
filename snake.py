@@ -48,7 +48,7 @@ class SnakeGame:
     def create_objects(self):
         self.canvas.delete("all")
         if self.is_running:
-            self.score_text = self.canvas.create_text(50, 10, text=f"Score: {self.score}", fill="white", font=("Arial", 16), tag="score")
+            self.score_text = self.canvas.create_text(50, 25, text=f"Score: {self.score}", fill="white", font=("Arial", 16), tag="score")
         self.create_snake()
         self.create_food()
         
